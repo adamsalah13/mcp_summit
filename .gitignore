@@ -30,3 +30,5 @@ ollama_models/
 .DS_Store
 Thumbs.db
 githubSetup.md
+clean_git_setup.md
+git.ps1
