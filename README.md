@@ -110,7 +110,7 @@ Result:
 ## 📂 Directory Layout
 
 ```
-summit-mcp/
+mcp-summit/
 ├─ mcp_server_full.py          # FastMCP server + tools
 ├─ web_ui_full.py              # Flask Web UI
 ├─ requirements.txt
