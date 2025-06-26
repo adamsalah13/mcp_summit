@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "summit-local": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["summit_mcp_server.py", "--output-dir", "summit_data"],
+      "description": "Local Summit MCP Server",
+      "timeout": 300,
+      "connection_timeout": 30,
+      "env": {"PYTHONUNBUFFERED": "1"}
+    }
+  },
+  "default_server": "summit-local",
+  "history_file": "client_history.txt",
+  "output_format": "json"
+}

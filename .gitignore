@@ -1,0 +1,32 @@
+# ── Python build & metadata ──────────────────────────
+__pycache__/
+*.py[cod]
+*.log
+
+# ── Virtual-envs (any name that ends with "env") ─────
+venv*/
+.env/
+.venv/
+
+# ── IDE / editor folders ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Summit MCP cache ─────────────────────────────────
+summit_data/            # PDFs + JSON (re-generated locally)
+summit_data/metadata.db
+
+# ── TBC Index.html location for Flask app ─────────────────────────────────
+templates/
+
+# ── test code - trials ─────────────────────────────────
+trials
+
+# ── Ollama large model dir (if you symlink or copy) ──
+ollama_models/
+
+# ── OS miscellany ────────────────────────────────────
+.DS_Store
+Thumbs.db
+githubSetup.md
