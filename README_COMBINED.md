@@ -1,6 +1,6 @@
 # Summit MCP Server - Combined LLM Version
 
-A Model Context Protocol (MCP) server for the Summit digital repository with support for both OpenAI and Ollama LLM backends.
+A powerful Model Context Protocol (MCP) server for the Summit digital repository with support for both OpenAI and Ollama LLM backends.
 
 ## Features
 

@@ -1,34 +1,84 @@
-# ── Python build & metadata ──────────────────────────
+# Python
 __pycache__/
 *.py[cod]
-*.log
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# ── Virtual-envs (any name that ends with "env") ─────
-venv*/
-.env/
-.venv/
+# PyInstaller
+*.manifest
+*.spec
 
-# ── IDE / editor folders ─────────────────────────────
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 
-# ── Summit MCP cache ─────────────────────────────────
-summit_data/            # PDFs + JSON (re-generated locally)
-summit_data/metadata.db
-
-# ── TBC Index.html location for Flask app ─────────────────────────────────
-templates/
-
-# ── test code - trials ─────────────────────────────────
-trials
-
-# ── Ollama large model dir (if you symlink or copy) ──
-ollama_models/
-
-# ── OS miscellany ────────────────────────────────────
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-githubSetup.md
-clean_git_setup.md
-git.ps1
+
+# Project specific
+logs/
+*.log
+config.json
+OpenAIRun.md
+*.db
+*.sqlite
+*.sqlite3
+summit_data/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+temp/
+
