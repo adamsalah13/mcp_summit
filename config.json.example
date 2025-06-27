@@ -1,0 +1,32 @@
+{
+  "server": {
+    "name": "Summit Open Source MCP Processor",
+    "version": "1.0.0",
+    "output_dir": "summit_data",
+    "max_file_size_mb": 50
+  },
+  "summit_api": {
+    "base_url": "https://summit.sfu.ca",
+    "timeout": 30,
+    "max_concurrent": 3
+  },
+  "openai": {
+    "api_key": "sk-your-openai-api-key-here",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "max_tokens": 2000,
+    "timeout": 60,
+    "enabled": true,
+    "max_retries": 3,
+    "retry_delay": 1.0
+  },
+  "ollama": {
+    "host": "localhost:11434",
+    "model": "llama3.2:latest",
+    "enabled": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/mcp_server.log"
+  }
+}
